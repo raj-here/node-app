@@ -1,0 +1,19 @@
+{
+  "name": "sendgrid-app",
+  "version": "1.0.0",
+  "description": "Node application with sendgrid",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RAJ CHAUHAN",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.11",
+    "multer": "^1.4.1"
+  }
+}
